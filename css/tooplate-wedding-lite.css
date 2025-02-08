@@ -1,10 +1,3 @@
-/*
-
-Tooplate 2131 Wedding Lite
-
-https://www.tooplate.com/view/2131-wedding-lite
-
-*/
 
 /*---------------------------------------
   CUSTOM PROPERTIES ( VARIABLES )             
@@ -378,7 +371,7 @@ strong {
 
 .navbar-toggler .navbar-toggler-icon {
   background: var(--dark-color);
-  transition: background 10ms 300ms ease;
+  transition: 10ms 300ms ease;
   display: block;
   width: 30px;
   height: 2px;
@@ -412,14 +405,14 @@ strong {
   HERO              
 -----------------------------------------*/
 .hero-container {
-  background-color: #d9d8d6;
+  background-color: #cb7575;
   background-image: url('../images/IMG_E0624.JPG');
   background-repeat: no-repeat;
   background-size:cover;
-  border-radius: var(--border-radius-small);
+  border-radius: var(--border-radius-large);
   position: relative;
   overflow: hidden;
-  padding: 85px;
+  padding: 100px;
   height: calc(90vh - 98px);
 }
 
@@ -563,7 +556,7 @@ strong {
   Video              
 -----------------------------------------*/
 .Video-section {
-  background-image: url('../images/closeup-shot-newlywed-couple-sitting-bench.jpg');
+  background-image: url('../images/background.webp');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -651,18 +644,18 @@ strong {
   SITE FOOTER              
 -----------------------------------------*/
 .site-footer {
-  background-image: url('../images/young-asian-pregnant-couple-using-laptop.jpeg');
+  background-color: #f7a3fc;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 300px;
+  padding-bottom: 10px;
   text-align: center;
-  position: relative;
+  position: center;
 }
 
 .site-footer::after {
   content: "";
-  background: var(--primary-color);
+  background: var(--custom-btn-bg-color);
   position: absolute;
   top: 0;
   left: 0;
@@ -698,7 +691,7 @@ strong {
 }
 
 .social-icon-link {
-  background: var(--secondary-color);
+  background: var(--custom-btn-bg-color);
   border-radius: var(--border-radius-large);
   font-size: var(--menu-font-size);
   color: var(--dark-color);
